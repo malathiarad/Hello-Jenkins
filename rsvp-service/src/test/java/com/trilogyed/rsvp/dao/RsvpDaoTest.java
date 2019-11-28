@@ -27,7 +27,7 @@ public class RsvpDaoTest {
 
         rsvps.stream()
                 .forEach(rsvp -> dao.deleteRsvp(rsvp.getId()));
-    }
+}
 
     @Test
     public void addGetDeleteRsvp() {
